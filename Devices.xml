@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MTConnectDevices xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:m="urn:mtconnect.org:MTConnectDevices:1.1" xmlns:ms="http://www.moriwebmonitor.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:mtconnect.org:MTConnectDevices:1.1" xsi:schemaLocation="urn:mtconnect.org:MTConnectDevices:1.1 http://www.mtconnect.org/schemas/MTConnectDevices_1.1.xsd">
+    <Header creationTime="2019-02-14T22:52:07" sender="localhost" instanceId="1237628993" bufferSize="100000" version="1.0" />
+    <Devices>
+        <Device uuid="2" name="N123456789" sampleRate="1000" id="123456789">
+            <Description serialNumber="123456789" />
+            <DataItems>
+                <DataItem type="EMERGENCY_STOP" category="EVENT" id="123456789_1" name="estop" />
+                <DataItem type="AVAILABILITY" category="EVENT" id="123456789_2" name="avail" />
+            </DataItems>
+            <Components>
+                <Axes name="Path Feedrate" id="123456789_3">
+                    <Components>
+                      
+                    </Components>
+                </Axes>
+                <Controller name="Controller" id="123456789_85">
+                    <DataItems>
+                        <DataItem type="POWER_STATE" subType="CONTROL" category="EVENT" id="123456789_86" name="power_state_" />
+                    </DataItems>
+                    <Components>
+                        <Path name="Path_1" id="123456789_87">
+                            <DataItems>
+                                <DataItem type="ms:RESET" category="EVENT" id="123456789_88" name="reset1" />
+                                <DataItem type="PART_COUNT" subType="ALL" category="EVENT" id="123456789_89" name="part_count1" />
+                                <DataItem type="ACTIVE_AXES" category="EVENT" id="123456789_90" name="axes1" />
+                                <DataItem type="CONTROLLER_MODE" category="EVENT" id="123456789_91" name="mode1" />
+                                <DataItem type="EXECUTION" category="EVENT" id="123456789_92" name="execution1" />
+                                <DataItem type="PROGRAM" category="EVENT" id="123456789_93" name="program1" />
+                                <DataItem type="LINE" subType="MINIMUM" category="EVENT" id="123456789_94" name="line1" />
+                                <DataItem type="BLOCK" category="EVENT" id="123456789_95" name="block1" />
+                                <DataItem type="PATH_FEEDRATE" subType="ACTUAL" category="SAMPLE" id="123456789_96" name="path_feedrate1" units="MILLIMETER/SECOND" />
+                                <DataItem type="TOOL_ID" category="EVENT" id="123456789_97" name="toolnumber1" />
+                                <DataItem type="ms:OPTIONAL_STOP" category="EVENT" id="123456789_98" name="optionalstop1" />
+                                <DataItem type="ms:BLOCK_DELETE" category="EVENT" id="123456789_99" name="blockdelete1" />
+                                <DataItem type="ms:DRY_RUN" category="EVENT" id="123456789_100" name="dryrun1" />
+                                <DataItem type="ms:CUTTING" category="EVENT" id="123456789_101" name="cutting1" />
+                                <DataItem type="ms:OPERATION_MODE" category="EVENT" id="123456789_102" name="operationmode1" />
+                                <DataItem type="ms:JOG_OVERRIDE" category="EVENT" id="123456789_103" name="jogoverride1" units="PERCENT" />
+                                <DataItem type="ms:RAPID_OVERRIDE" category="EVENT" id="123456789_104" name="rapidoverride1" units="PERCENT" />
+                                <DataItem type="LOGIC_PROGRAM" category="CONDITION" id="123456789_105" name="logic1" />
+                                <DataItem type="MOTION_PROGRAM" category="CONDITION" id="123456789_106" name="motion1" />
+                            </DataItems>
+                        </Path>
+                        <Path name="Path_2" id="123456789_107">
+                            <DataItems>
+                                <DataItem type="ms:RESET" category="EVENT" id="123456789_108" name="reset2" />
+                                <DataItem type="PART_COUNT" subType="ALL" category="EVENT" id="123456789_109" name="part_count2" />
+                                <DataItem type="ACTIVE_AXES" category="EVENT" id="123456789_110" name="axes2" />
+                                <DataItem type="CONTROLLER_MODE" category="EVENT" id="123456789_111" name="mode2" />
+                                <DataItem type="EXECUTION" category="EVENT" id="123456789_112" name="execution2" />
+                                <DataItem type="PROGRAM" category="EVENT" id="123456789_113" name="program2" />
+                                <DataItem type="LINE" subType="MINIMUM" category="EVENT" id="123456789_114" name="line2" />
+                                <DataItem type="BLOCK" category="EVENT" id="123456789_115" name="block2" />
+                                <DataItem type="PATH_FEEDRATE" subType="ACTUAL" category="SAMPLE" id="123456789_116" name="path_feedrate2" units="MILLIMETER/SECOND" />
+                                <DataItem type="TOOL_ID" category="EVENT" id="123456789_117" name="toolnumber2" />
+                                <DataItem type="ms:OPTIONAL_STOP" category="EVENT" id="123456789_118" name="optionalstop2" />
+                                <DataItem type="ms:BLOCK_DELETE" category="EVENT" id="123456789_119" name="blockdelete2" />
+                                <DataItem type="ms:DRY_RUN" category="EVENT" id="123456789_120" name="dryrun2" />
+                                <DataItem type="ms:CUTTING" category="EVENT" id="123456789_121" name="cutting2" />
+                                <DataItem type="ms:OPERATION_MODE" category="EVENT" id="123456789_122" name="operationmode2" />
+                                <DataItem type="ms:JOG_OVERRIDE" category="EVENT" id="123456789_123" name="jogoverride2" units="PERCENT" />
+                                <DataItem type="ms:RAPID_OVERRIDE" category="EVENT" id="123456789_124" name="rapidoverride2" units="PERCENT" />
+                                <DataItem type="LOGIC_PROGRAM" category="CONDITION" id="123456789_125" name="logic2" />
+                                <DataItem type="MOTION_PROGRAM" category="CONDITION" id="123456789_126" name="motion2" />
+                            </DataItems>
+                        </Path>
+                        <Path name="Path_3" id="123456789_127">
+                            <DataItems>
+                                <DataItem type="ms:RESET" category="EVENT" id="123456789_128" name="reset3" />
+                                <DataItem type="PART_COUNT" subType="ALL" category="EVENT" id="123456789_129" name="part_count3" />
+                                <DataItem type="ACTIVE_AXES" category="EVENT" id="123456789_130" name="axes3" />
+                                <DataItem type="CONTROLLER_MODE" category="EVENT" id="123456789_131" name="mode3" />
+                                <DataItem type="EXECUTION" category="EVENT" id="123456789_132" name="execution3" />
+                                <DataItem type="PROGRAM" category="EVENT" id="123456789_133" name="program3" />
+                                <DataItem type="LINE" subType="MINIMUM" category="EVENT" id="123456789_134" name="line3" />
+                                <DataItem type="BLOCK" category="EVENT" id="123456789_135" name="block3" />
+                                <DataItem type="PATH_FEEDRATE" subType="ACTUAL" category="SAMPLE" id="123456789_136" name="path_feedrate3" units="MILLIMETER/SECOND" />
+                                <DataItem type="TOOL_ID" category="EVENT" id="123456789_137" name="toolnumber3" />
+                                <DataItem type="ms:OPTIONAL_STOP" category="EVENT" id="123456789_138" name="optionalstop3" />
+                                <DataItem type="ms:BLOCK_DELETE" category="EVENT" id="123456789_139" name="blockdelete3" />
+                                <DataItem type="ms:DRY_RUN" category="EVENT" id="123456789_140" name="dryrun3" />
+                                <DataItem type="ms:CUTTING" category="EVENT" id="123456789_141" name="cutting3" />
+                                <DataItem type="ms:OPERATION_MODE" category="EVENT" id="123456789_142" name="operationmode3" />
+                                <DataItem type="ms:JOG_OVERRIDE" category="EVENT" id="123456789_143" name="jogoverride3" />
+                                <DataItem type="ms:RAPID_OVERRIDE" category="EVENT" id="123456789_144" name="rapidoverride3" />
+                                <DataItem type="LOGIC_PROGRAM" category="CONDITION" id="123456789_145" name="logic3" />
+                                <DataItem type="MOTION_PROGRAM" category="CONDITION" id="123456789_146" name="motion3" />
+                            </DataItems>
+                        </Path>
+                        <Path name="Path_4" id="123456789_147">
+                            <DataItems>
+                                <DataItem type="ms:RESET" category="EVENT" id="123456789_148" name="reset4" />
+                                <DataItem type="PART_COUNT" subType="ALL" category="EVENT" id="123456789_149" name="part_count4" />
+                                <DataItem type="ACTIVE_AXES" category="EVENT" id="123456789_150" name="axes4" />
+                                <DataItem type="CONTROLLER_MODE" category="EVENT" id="123456789_151" name="mode4" />
+                                <DataItem type="EXECUTION" category="EVENT" id="123456789_152" name="execution4" />
+                                <DataItem type="PROGRAM" category="EVENT" id="123456789_153" name="program4" />
+                                <DataItem type="LINE" subType="MINIMUM" category="EVENT" id="123456789_154" name="line4" />
+                                <DataItem type="BLOCK" category="EVENT" id="123456789_155" name="block4" />
+                                <DataItem type="PATH_FEEDRATE" subType="ACTUAL" category="SAMPLE" id="123456789_156" name="path_feedrate4" units="MILLIMETER/SECOND" />
+                                <DataItem type="TOOL_ID" category="EVENT" id="123456789_157" name="toolnumber4" />
+                                <DataItem type="ms:OPTIONAL_STOP" category="EVENT" id="123456789_158" name="optionalstop4" />
+                                <DataItem type="ms:BLOCK_DELETE" category="EVENT" id="123456789_159" name="blockdelete4" />
+                                <DataItem type="ms:DRY_RUN" category="EVENT" id="123456789_160" name="dryrun4" />
+                                <DataItem type="ms:CUTTING" category="EVENT" id="123456789_161" name="cutting4" />
+                                <DataItem type="ms:OPERATION_MODE" category="EVENT" id="123456789_162" name="operationmode4" />
+                                <DataItem type="ms:JOG_OVERRIDE" category="EVENT" id="123456789_163" name="jogoverride4" units="PERCENT" />
+                                <DataItem type="ms:RAPID_OVERRIDE" category="EVENT" id="123456789_164" name="rapidoverride4" units="PERCENT" />
+                                <DataItem type="LOGIC_PROGRAM" category="CONDITION" id="123456789_165" name="logic4" />
+                                <DataItem type="MOTION_PROGRAM" category="CONDITION" id="123456789_166" name="motion4" />
+                            </DataItems>
+                        </Path>
+                    </Components>
+                </Controller>
+                <System name="System" id="123456789_167">
+                    <Components>
+                        <Coolant name="Coolant" id="123456789_168">
+                            <DataItems>
+                                <DataItem type="ms:COOLANT" category="EVENT" id="123456789_169" name="coolant" />
+                            </DataItems>
+                        </Coolant>
+                    </Components>
+                </System>
+            </Components>
+        </Device>
+    </Devices>
+</MTConnectDevices>
