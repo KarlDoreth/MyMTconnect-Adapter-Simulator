@@ -1,0 +1,7 @@
+C:\Users\Karl\Desktop\MyMTconnectAdapter\bin\Debug\SyncSocketServer.exe.config
+C:\Users\Karl\Desktop\MyMTconnectAdapter\bin\Debug\SyncSocketServer.exe
+C:\Users\Karl\Desktop\MyMTconnectAdapter\bin\Debug\SyncSocketServer.pdb
+C:\Users\Karl\Desktop\MyMTconnectAdapter\obj\Debug\MyMTconnectAdapter.csprojResolveAssemblyReference.cache
+C:\Users\Karl\Desktop\MyMTconnectAdapter\obj\Debug\MyMTconnectAdapter.csproj.CoreCompileInputs.cache
+C:\Users\Karl\Desktop\MyMTconnectAdapter\obj\Debug\SyncSocketServer.exe
+C:\Users\Karl\Desktop\MyMTconnectAdapter\obj\Debug\SyncSocketServer.pdb

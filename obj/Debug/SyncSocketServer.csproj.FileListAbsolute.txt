@@ -1,0 +1,7 @@
+C:\Users\Karl\Desktop\SyncSocketServer\bin\Debug\SyncSocketServer.exe.config
+C:\Users\Karl\Desktop\SyncSocketServer\bin\Debug\SyncSocketServer.exe
+C:\Users\Karl\Desktop\SyncSocketServer\bin\Debug\SyncSocketServer.pdb
+C:\Users\Karl\Desktop\SyncSocketServer\obj\Debug\SyncSocketServer.csproj.CoreCompileInputs.cache
+C:\Users\Karl\Desktop\SyncSocketServer\obj\Debug\SyncSocketServer.exe
+C:\Users\Karl\Desktop\SyncSocketServer\obj\Debug\SyncSocketServer.pdb
+C:\Users\Karl\Desktop\SyncSocketServer\obj\Debug\SyncSocketServer.csprojResolveAssemblyReference.cache
